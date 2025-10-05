@@ -1,0 +1,54 @@
+E-Commerce Sales Analysis & Business Intelligence Dashboard
+🚀 Project Overview
+This project is a comprehensive E-Commerce Sales Analysis initiative that transforms raw transactional data into actionable business intelligence. It encompasses the entire data pipeline, from dimensional modeling and data processing to interactive dashboard creation and strategic reporting. The primary goal is to provide deep insights into sales performance, customer behavior, and product trends, enabling data-driven decision-making.
+
+🌟 Key Features
+Dimensional Modeling: Utilizes a star schema with fact_table (transactions) and several dimension tables (customer_dim, item_dim) for efficient data querying and analysis.
+
+KPI Tracking: Calculates and tracks key performance indicators (KPIs) like Total Sales, Total Quantity, Average Unit Price, Customer Growth, and Year-over-Year (YoY) Growth.
+
+In-Depth Analysis: Provides granular insights into:
+
+Monthly Sales Trends and KPI Trend Analysis.
+
+Top 5 Units by Quantity Sold and Top 10 Selling Products.
+
+Store Division and Supplier Performance by Revenue/Quantity.
+
+Geographical Sales Distribution visualization.
+
+Interactive Dashboard: A visually rich and interactive dashboard created in Power BI for easy exploration and monitoring of business performance.
+
+Wireframing & Design: Includes the initial wireframes and design mockups, illustrating the complete development process from concept to final report.
+
+🗃️ Data & Files
+File Name	Description	Type
+fact_table.csv	Core transaction data with keys, quantity, unit price, and total price.	Data (CSV)
+customer_dim.csv	Customer dimension table (name, contact, NID).	Data (CSV)
+item_dim.csv	Item/Product dimension table (name, description, unit, supplier, country).	Data (CSV)
+E-COMMERCE - EXCEL FULL DEEP.xlsx - CALCULATIONS.csv	Contains high-level KPI and monthly trend calculations.	Analysis (CSV)
+E-COMMERCE - EXCEL FULL DEEP.xlsx - CALCULATION II.csv	Contains detailed calculations for top products, suppliers, and store division performance.	Analysis (CSV)
+E-commerce.pbix	Power BI Desktop file containing the complete data model, DAX measures, and final dashboard design.	Report (PBIX)
+E- COMMERCE WIREFRAME.pptx	Presentation file detailing the initial report wireframes and layout design.	Design (PPTX)
+Map.json	Geographical data file likely used for advanced map visualizations in Power BI.	GeoData (JSON)
+Sales Dashboard (5).png / Screenshot...png / list.png	Various image files showcasing dashboard views and key visualizations.	Visuals (PNG)
+
+Export to Sheets
+🛠️ Technologies Used
+Data Preparation & Analysis: Python/Pandas (implied by CSV files), Microsoft Excel.
+
+Business Intelligence & Visualization: Power BI (.pbix file).
+
+Data Modeling: Star Schema (Dimensional Model).
+
+📊 Dashboard Highlights
+The Power BI dashboard provides an at-a-glance view of the e-commerce health, including:
+
+Year-over-Year comparison for Sales and Quantity.
+
+Detailed breakdown of revenue by Geographical Region (using Map.json for visualization).
+
+Visualizations for the performance of different Store Divisions and Suppliers.
+
+Feel free to explore the data models and calculation logic within the E-commerce.pbix file.
+
